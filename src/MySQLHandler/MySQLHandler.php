@@ -77,7 +77,7 @@ class MySQLHandler extends AbstractProcessingHandler
     {
         $this->pdo->exec(
             'CREATE TABLE IF NOT EXISTS `'.$this->table.'` '
-            .'(channel VARCHAR(255), level INTEGER, message LONGTEXT, time INTEGER UNSIGNED)'
+            .'(id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,channel VARCHAR(255), level INTEGER, message LONGTEXT, time INTEGER UNSIGNED)'
         );
 
         //Read out actual columns
