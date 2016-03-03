@@ -1,8 +1,8 @@
 {
-    "name": "wazaari/monolog-mysql",
+    "name": "bryancowan22/monolog-mysql",
     "description": "A handler for Monolog that sends messages to MySQL",
     "keywords": ["log", "logging", "monolog", "mysql", "database"],
-    "homepage": "https://github.com/waza-ari/monolog-mysql",
+    "homepage": "https://github.com/bryancowan22/monolog-mysql",
     "license": "MIT",
     "authors": [
         {
